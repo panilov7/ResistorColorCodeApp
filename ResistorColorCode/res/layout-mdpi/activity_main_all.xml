@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageViewRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/imageViewRes"
+        android:src="@drawable/resistor" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/imageViewRes" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button style="@style/btn_empty" />
+
+                <Button
+                    android:id="@+id/btn1_Brown"
+                    style="@style/btn_brown" />
+
+                <Button
+                    android:id="@+id/btn1_Red"
+                    style="@style/btn_red" />
+
+                <Button
+                    android:id="@+id/btn1_Orange"
+                    style="@style/btn_orange" />
+
+                <Button
+                    android:id="@+id/btn1_Yellow"
+                    style="@style/btn_yellow" />
+
+                <Button
+                    android:id="@+id/btn1_Green"
+                    style="@style/btn_green" />
+
+                <Button
+                    android:id="@+id/btn1_Blue"
+                    style="@style/btn_blue" />
+
+                <Button
+                    android:id="@+id/btn1_Violet"
+                    style="@style/btn_violet" />
+
+                <Button
+                    android:id="@+id/btn1_Gray"
+                    style="@style/btn_gray" />
+
+                <Button
+                    android:id="@+id/btn1_White"
+                    style="@style/btn_white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn2_Black"
+                    style="@style/btn_black" />
+
+                <Button
+                    android:id="@+id/btn2_Brown"
+                    style="@style/btn_brown" />
+
+                <Button
+                    android:id="@+id/btn2_Red"
+                    style="@style/btn_red" />
+
+                <Button
+                    android:id="@+id/btn2_Orange"
+                    style="@style/btn_orange" />
+
+                <Button
+                    android:id="@+id/btn2_Yellow"
+                    style="@style/btn_yellow" />
+
+                <Button
+                    android:id="@+id/btn2_Green"
+                    style="@style/btn_green" />
+
+                <Button
+                    android:id="@+id/btn2_Blue"
+                    style="@style/btn_blue" />
+
+                <Button
+                    android:id="@+id/btn2_Violet"
+                    style="@style/btn_violet" />
+
+                <Button
+                    android:id="@+id/btn2_Gray"
+                    style="@style/btn_gray" />
+
+                <Button
+                    android:id="@+id/btn2_White"
+                    style="@style/btn_white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn3_Black"
+                    style="@style/btn_black" />
+
+                <Button
+                    android:id="@+id/btn3_Brown"
+                    style="@style/btn_brown" />
+
+                <Button
+                    android:id="@+id/btn3_Red"
+                    style="@style/btn_red" />
+
+                <Button
+                    android:id="@+id/btn3_Orange"
+                    style="@style/btn_orange" />
+
+                <Button
+                    android:id="@+id/btn3_Yellow"
+                    style="@style/btn_yellow" />
+
+                <Button
+                    android:id="@+id/btn3_Green"
+                    style="@style/btn_green" />
+
+                <Button
+                    android:id="@+id/btn3_Blue"
+                    style="@style/btn_blue" />
+
+                <Button
+                    android:id="@+id/btn3_Violet"
+                    style="@style/btn_violet" />
+
+                <Button
+                    android:id="@+id/btn3_Gray"
+                    style="@style/btn_gray" />
+
+                <Button
+                    android:id="@+id/btn3_White"
+                    style="@style/btn_white" />
+
+                <Button
+                    android:id="@+id/btn3_Gold"
+                    style="@style/btn_gold" />
+
+                <Button
+                    android:id="@+id/btn3_Silver"
+                    style="@style/btn_silver" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button style="@style/btn_empty" />
+
+                <Button
+                    android:id="@+id/btn4_Brown"
+                    style="@style/btn_brown" />
+
+                <Button
+                    android:id="@+id/btn4_Red"
+                    style="@style/btn_red" />
+
+                <Button style="@style/btn_empty" />
+
+                <Button style="@style/btn_empty" />
+
+                <Button
+                    android:id="@+id/btn4_Green"
+                    style="@style/btn_green" />
+
+                <Button
+                    android:id="@+id/btn4_Blue"
+                    style="@style/btn_blue" />
+
+                <Button
+                    android:id="@+id/btn4_Violet"
+                    style="@style/btn_violet" />
+
+                <Button
+                    android:id="@+id/btn4_Gray"
+                    style="@style/btn_gray" />
+
+                <Button style="@style/btn_empty" />
+
+                <Button
+                    android:id="@+id/btn4_Gold"
+                    style="@style/btn_gold" />
+
+                <Button
+                    android:id="@+id/btn4_Silver"
+                    style="@style/btn_silver" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_Color1"
+        android:layout_width="11dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageViewRes"
+        android:layout_alignTop="@+id/imageViewRes"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_Color2"
+        android:layout_width="11dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@+id/imageViewRes"
+        android:layout_alignTop="@+id/imageViewRes"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_Color3"
+        android:layout_width="11dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@+id/imageViewRes"
+        android:layout_alignTop="@+id/imageViewRes"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_Color4"
+        android:layout_width="11dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageViewRes"
+        android:layout_alignTop="@+id/imageViewRes"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/black" />
+
+</RelativeLayout>

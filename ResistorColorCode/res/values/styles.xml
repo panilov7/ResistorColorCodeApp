@@ -1,0 +1,114 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="scrollvew">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="btn_small" parent="android:attr/buttonStyleSmall">
+        <item name="android:layout_margin">@dimen/color_buttons_margins</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>=
+    </style>
+
+    <style name="btn_empty" parent="btn_small">
+        <item name="android:background">@drawable/btn_empty</item>
+    </style>
+
+    <style name="btn_black" parent="btn_small">
+        <item name="android:background">@drawable/btn_black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/btn_black</item>
+    </style>
+
+    <style name="btn_brown" parent="btn_small">
+        <item name="android:background">@drawable/btn_brown</item>
+        <item name="android:text">@string/btn_brown</item>
+    </style>
+
+    <style name="btn_red" parent="btn_small">
+        <item name="android:background">@drawable/btn_red</item>
+        <item name="android:text">@string/btn_red</item>
+    </style>
+
+    <style name="btn_orange" parent="btn_small">
+        <item name="android:background">@drawable/btn_orange</item>
+        <item name="android:text">@string/btn_orange</item>
+    </style>
+
+    <style name="btn_yellow" parent="btn_small">
+        <item name="android:background">@drawable/btn_yellow</item>
+        <item name="android:text">@string/btn_yellow</item>
+    </style>
+
+    <style name="btn_green" parent="btn_small">
+        <item name="android:background">@drawable/btn_green</item>
+        <item name="android:text">@string/btn_green</item>
+    </style>
+
+    <style name="btn_blue" parent="btn_small">
+        <item name="android:background">@drawable/btn_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/btn_blue</item>
+    </style>
+
+    <style name="btn_violet" parent="btn_small">
+        <item name="android:background">@drawable/btn_violet</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/btn_violet</item>
+    </style>
+
+    <style name="btn_gray" parent="btn_small">
+        <item name="android:background">@drawable/btn_gray</item>
+        <item name="android:text">@string/btn_gray</item>
+    </style>
+
+    <style name="btn_white" parent="btn_small">
+        <item name="android:background">@drawable/btn_white</item>
+        <item name="android:text">@string/btn_white</item>
+    </style>
+
+    <style name="btn_gold" parent="btn_small">
+        <item name="android:background">@drawable/btn_gold</item>
+        <item name="android:text">@string/btn_gold</item>
+    </style>
+
+    <style name="btn_silver" parent="btn_small">
+        <item name="android:background">@drawable/btn_silver</item>
+        <item name="android:text">@string/btn_silver</item>
+    </style>
+
+    <!-- Colors -->
+    <color name="background">#E8E4C9</color>
+    <color name="black">#000000</color>
+    <color name="brown">#8b4513</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ff9400</color>
+    <color name="yellow">#ffff00</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="violet">#9400d3</color>
+    <color name="gray">#848381</color>
+    <color name="white">#ffffff</color>
+    <color name="gold">#ffd700</color>
+    <color name="silver">#b2b2b2</color>
+
+</resources>

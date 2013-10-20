@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_scroll_colors"
+        android:summaryOff="@string/pref_description_checkbox_scroll_colors_off"
+        android:summaryOn="@string/pref_description_checkbox_scroll_colors_on"
+        android:title="@string/pref_title_checkbox_scroll_colors" />
+
+</PreferenceScreen>

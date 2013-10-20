@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_description_checkbox_scroll_colors_on">All color together</string>
+    <string name="pref_description_checkbox_scroll_colors_off">All color by themself</string>
+    <string name="pref_title_checkbox_scroll_colors">Scroll</string>
+
+</resources>
