@@ -262,40 +262,40 @@
     <TextView
         android:id="@+id/tv_Color1"
         android:layout_width="12dp"
-        android:layout_height="70dp"
+        android:layout_height="65dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="115dp"
+        android:layout_marginLeft="82dp"
         android:layout_marginTop="5dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color2"
         android:layout_width="12dp"
-        android:layout_height="50dp"
+        android:layout_height="47dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="165dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="14dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color3"
         android:layout_width="12dp"
-        android:layout_height="50dp"
+        android:layout_height="47dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="14dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color4"
         android:layout_width="12dp"
-        android:layout_height="70dp"
+        android:layout_height="65dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="270dp"
+        android:layout_marginLeft="227dp"
         android:layout_marginTop="5dp"
         android:background="@color/black" />
 

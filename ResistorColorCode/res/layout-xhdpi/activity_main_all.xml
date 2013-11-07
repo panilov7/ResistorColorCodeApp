@@ -28,6 +28,7 @@
         android:layout_below="@+id/tv1"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/imageViewRes"
+        android:maxWidth="300dp"
         android:src="@drawable/resistor" />
 
     <ScrollView
@@ -244,41 +245,41 @@
     <TextView
         android:id="@+id/tv_Color1"
         android:layout_width="12dp"
-        android:layout_height="50dp"
+        android:layout_height="66dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="82dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="5dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color2"
         android:layout_width="12dp"
-        android:layout_height="36dp"
+        android:layout_height="47dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="14dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color3"
         android:layout_width="12dp"
-        android:layout_height="36dp"
+        android:layout_height="47dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="157dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="14dp"
         android:background="@color/black" />
 
     <TextView
         android:id="@+id/tv_Color4"
         android:layout_width="12dp"
-        android:layout_height="50dp"
+        android:layout_height="66dp"
         android:layout_alignLeft="@+id/imageViewRes"
         android:layout_alignTop="@+id/imageViewRes"
-        android:layout_marginLeft="195dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="227dp"
+        android:layout_marginTop="5dp"
         android:background="@color/black" />
 
 </RelativeLayout>
