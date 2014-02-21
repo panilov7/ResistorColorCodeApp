@@ -21,17 +21,12 @@ public class SettingsActivity extends PreferenceActivity implements
 	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
-		// TODO Auto-generated method stub
-
-		Log.d("SettingsActivity", "onSharedPreferenceChanged: key=" + key
-				+ "SharedPreferences=" + sharedPreferences);
-
+//		Log.d("SettingsActivity", "onSharedPreferenceChanged: key=" + key
+//				+ "SharedPreferences=" + sharedPreferences);
 		if (key.equals("checkbox_scroll_colors")) {
-
 			Toast.makeText(this,
 					"Changes will take effect after the app is restarted!",
 					Toast.LENGTH_LONG).show();
-
 		}
 	}
 
